@@ -1,0 +1,58 @@
+DELETE
+FROM book;
+ALTER TABLE book
+    AUTO_INCREMENT = 1001;
+
+DELETE
+FROM category;
+ALTER TABLE category
+    AUTO_INCREMENT = 1001;
+
+INSERT INTO `category` (`name`)
+VALUES ('Sci-Fi'),
+       ('Self Help'),
+       ('Fiction'),
+       ('Romance'),
+       ('Mystery');
+
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id)
+VALUES ('The Claimed', 'Francis Stevens', '', 599, 0, TRUE, FALSE, 1001);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id)
+VALUES ('The Fossil', 'Joshua T Calvert', '', 1287, 0, FALSE, TRUE, 1001);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id)
+VALUES ('The Road', 'Comac McCarthy', 'A post-apocalyptic classic set in a burned-out America, a father and his young son walk under a darkened sky, The Road is a masterpiece of American fiction from Cormac McCarthy. Attempting to survive in this brave new world, the young boy and his protector have nothing but a pistol to defend themselves. They must keep walking. In this unflinching study of the best and worst of humankind, Cormac McCarthy boldly divines a future without hope, but one in which, miraculously, this young family may yet find tenderness. Adapted into a critically-acclaimed film starring Viggo Mortensen and Charlize Theron. Part of the Picador Collection, a series showcasing the best of modern literature.', 499, 0, TRUE, TRUE, 1001);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id)
+VALUES ('Coraline', 'Neil Gaiman', '', 699, 0, FALSE, FALSE, 1001);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id)
+VALUES ('Atomic Habits', 'James Clear', '', 737, 0, TRUE, FALSE, 1002);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id)
+VALUES ('Lost in the Cosmos', 'Walker Percy', 'This mordantly funny contribution to the self-help book craze deals with the Western minds tendency toward heavy abstraction. "Stunningly innovative, for readers who like both to chuckle and to think hard."--"People."', 1199, 0, TRUE, TRUE, 1002);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id)
+VALUES ('You Selfish Bastard', 'D Arthur Wilson', '', 699, 0, FALSE, FALSE, 1002);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id)
+VALUES ('Save Your Own Damn Life', 'Jessica Jeboult', '', 999, 0, FALSE, TRUE, 1002);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id)
+VALUES ('After Death', 'Dean Koontz', '', 2012, 0, TRUE, FALSE, 1003);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id)
+VALUES ('Fire&Blood', 'George R. R. Martin', '', 1999, 0, FALSE, TRUE, 1003);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id)
+VALUES ('Harry Potter and the Sorcerers Stone', 'J K Rowling', '', 724, 0, FALSE, FALSE, 1003);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id)
+VALUES ('Harry Potter and the Goblet of Fire', 'J K Rowling', 'A teenager pitching headfirst into the world of near-adulthood, Harry returns to Hogwarts for his fourth year.', 536, 0, TRUE, TRUE, 1003);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id)
+VALUES ('It Ends With US', 'Collen Hoover', '', 799, 0, FALSE, FALSE, 1004);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id)
+VALUES ('Twisted Love', 'Ana Huang', '', 1199, 0, TRUE, TRUE, 1004);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id)
+VALUES ('Maybe In Another Life', 'Taylor Jenkins Reid', 'Maybe in Another Life raises questions about fate and true love: Is anything meant to be? Is there such a thing as a soul mate? Hannah believes there is. And, in both worlds, she has found him.', 992, 0, TRUE, TRUE, 1004);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id)
+VALUES ('Hunting Adeline', 'H D Carlton', '', 1145, 0, FALSE, FALSE, 1004);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id)
+VALUES ('Never Lie', 'Freida McFadden', 'As Tricia listens to the cassette tapes, she learns about the terrifying chain of events leading up to Dr. Hales mysterious disappearance. Tricia plays the tapes one by one, late into the night. With each one, another shocking piece of the puzzle falls into place, and Dr. Adrienne Hale''s web of lies slowly unravels. And then Tricia reaches the final cassette. The one that reveals the entire horrifying truth', 1565, 0, TRUE, TRUE, 1005);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id)
+VALUES ('Twenty Years Later', 'Charlie Donlea', '', 499, 0, FALSE, FALSE, 1005);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id)
+VALUES ('Blood Lines', 'Nelson DeMille & Alex DeMille', '', 599, 0, TRUE, FALSE, 1005);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id)
+VALUES ('Zero Days', 'Ruth Ware', '', 950, 0, FALSE, TRUE, 1005);
+

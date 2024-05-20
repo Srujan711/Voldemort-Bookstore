@@ -1,0 +1,66 @@
+{
+  "categories": [
+    {
+      "categoryId": 1001,
+      "name": "Sci-Fi"
+    },
+    {
+      "categoryId": 1002,
+      "name": "Self Help"
+    },
+    {
+      "categoryId": 1003,
+      "name": "Fiction"
+    },
+    {
+      "categoryId": 1004,
+      "name": "Romance"
+    },
+    {
+      "categoryId": 1005,
+      "name": "Mystery"
+    }
+  ],
+  "books": [
+    {
+      "bookId": 1001,
+      "title": "After Death",
+      "author": "Dean Koontz",
+      "price": 2012,
+      "isPublic": true,
+      "categoryId": 1003
+    },
+    {
+      "bookId": 1002,
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "price": 737,
+      "isPublic": true,
+      "categoryId": 1002
+    },
+    {
+      "bookId": 1003,
+      "title": "Fire&Blood",
+      "author": "George R. R. Martin",
+      "price": 1999,
+      "isPublic": true,
+      "categoryId": 1003
+    },
+    {
+      "bookId": 1004,
+      "title": "It Ends With US",
+      "author": "Collen Hoover",
+      "price": 799,
+      "isPublic": true,
+      "categoryId": 1004
+    },
+    {
+      "bookId": 1005,
+      "title": "The Claimed",
+      "author": "Francis Stevens",
+      "price": 1245,
+      "isPublic": true,
+      "categoryId": 1001
+    }
+  ]
+}
